@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@200;600;700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/leone-venter-VieM9BdZKFo-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    
+    border-radius: 10px;
+    
+    width: 405px;
+    margin: 80px auto;
+    height: 660px;
+      box-shadow: -6px 2px 20px 18px rgba(0, 0, 0, 0.447);;
+    /* border: 2px solid ; */
+    
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 5px;
+    height: 200px;
+    position: relative;
+    background-color: #d2d2d2;
+    /* border: 2px solid transparent; */
+    
+}
+.img{
+    background-image: url(/profile.jpg);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    height: 155px;
+    width: 155px;
+    position: absolute;
+    top: 159px;
+    
+    align-self: center;
+    border-radius: 50%;
+    border: 5px solid white;
+    
+    
+    
+}
+.text{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    
+    /* border: 2px solid red; */
+    
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    
+    margin-bottom: 10px;
+}
+p{
+    
+    font-size: 13px;
+    font-family: 'Martel Sans', sans-serif;
+}
+.btn{
+    width: 130px;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+    border: none;
+    /* border: 2px solid red; */
+    
+}
+.buttonprimary {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+
+    /* border: 2px solid red; */
+    padding: 10px;
+    justify-content: center;
+    align-self: center;
+    gap: 15px;
+    margin: 0px auto;
+
+
+}
+a{
+    text-decoration: none;
+}
+button {
+    
+    border: none;
+    background-color: transparent;
+}
+.hire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 12px;
+    width: 120px;
+    text-decoration: none;
+    align-self: center;
+    border: none;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    /* margin-bottom: 35px; */
+    
+    
+
+
+}
+
+.btn:hover {
+    background-color: #000000a4;
+
+}
